@@ -6,6 +6,7 @@ manifest:
       url-base: https://github.com/tomylin890
   projects:
     - name: zmk
+      repo-path: zmk-uconsole
       remote: ZitaoTech
       revision: uconsole-scroll
       import: app/west.yml

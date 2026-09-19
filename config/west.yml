@@ -3,11 +3,11 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: ZitaoTech
-      url-base: https://github.com/ZitaoTech
+      url-base: https://github.com/tomylin890
   projects:
     - name: zmk
       remote: ZitaoTech
-      revision: bbkeyboard_tp
+      revision: uconsole-scroll
       import: app/west.yml
   self:
     path: config
